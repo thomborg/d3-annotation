@@ -350,7 +350,13 @@ var Annotation = function () {
 
       return json;
     }
-  }]);
+  },
+{
+  key: "mark",
+  get: function get$$1() {
+    return {marktype: null}
+  }
+}]);
   return Annotation;
 }();
 
